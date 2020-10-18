@@ -522,8 +522,8 @@ public abstract class JsonReader implements Closeable {
       case STRING:
         return nextString();
 
-      case NUMBER:
-        return nextDouble();
+      case NUMBER://!!
+        return nextString();
 
       case BOOLEAN:
         return nextBoolean();
